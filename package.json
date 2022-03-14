@@ -1,0 +1,23 @@
+{
+  "name": "nomadquest",
+  "version": "1.0.0",
+  "description": "nomadquest",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.49.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LudoQ56/nomadquest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LudoQ56/nomadquest/issues"
+  },
+  "homepage": "https://github.com/LudoQ56/nomadquest#readme"
+}

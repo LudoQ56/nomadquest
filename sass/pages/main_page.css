@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap");
+@font-face {
+  font-family: duarose;
+  src: url(/ressources/Fonts/Duaroseserifdemo-6Yv4x.otf);
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.header__logo {
+  position: absolute;
+  top: 1.5rem;
+  left: 25%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.header__navmenu {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  top: 1rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header a {
+  font-family: "Montserrat";
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  margin: 1.5rem;
+}
+
+.header a :after {
+  content: url("/ressources/logo_img/EMBLEME RVB/decoration.png");
+  color: white;
+}
+/*# sourceMappingURL=main_page.css.map */
