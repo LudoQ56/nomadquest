@@ -3,33 +3,88 @@
 display: flex;
 width:100%;
 &__logo{
-    position:absolute;
-    top:1.5rem;
-    left:25%;
-    align-self: center;
+    position: absolute;
+    top:12.5rem;
+    margin-left:50%;
+    margin-right:50%;
+    transform:translate(-50%,-50%);
+    
 
 }
 &__navmenu{
-    position:absolute;
+    margin:0.75rem;
+    position: inherit;
     display: flex;
     width:100%;
     top:1rem;
     flex-direction: row;
-    
-    }
-    
-
-    a{
-        font-family:"Montserrat";
+    justify-content: space-between;
+    &__box{
+           
+            width:5rem;
+            text-align: center;
+        
+    &__link{
+        font-family: montserrat;
+        font-weight: bold;
         text-decoration: none;
+        
         font-size: 1rem;
+        width:10%;
         color:white;
-        margin:1.5rem;
-        :after{
+        
+        }
+        &__deco{
+            width:100%;
+            position: relative;
+            filter:invert(1);
+        }
+       
+       
+    }
+}
+
             
-            content:url("/ressources/logo_img/EMBLEME\ RVB/decoration.png");
-           color:white;
+}
+
+
+.title{
+    
+    font-family: duarose;
+        color:#aa765c;
+        
+        text-align: center;
+        display: flex;
+        align-content: center;
+        margin-top:20%;
+        flex-wrap: wrap;
+        &__name{
+            font-size: 4rem;
+            text-align: center;
+            width:100%;
+            margin: 0,2rem;
+
+        }
+        &__description{
+            text-align:center;
+            width:100%;
+            margin-top:0rem;
+            color:white;
+            span{
+                color:#aa765c
+            }
+        }
+        &__contact{
+            position:absolute;
+            width:10%;
+            top:50%;
+            left:50%;
+            &__deco{
+                width:100%;
+                position: relative;
+                filter:invert(1);
+        
+            }
     }
 
 }
-};
